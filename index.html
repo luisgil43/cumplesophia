@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Invitación Cumple Sophia 🦋</title>
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Cumpleaños de Sophia (6 años) 🦋💜" />
+  <meta property="og:description" content="¡Estás invitad@! Toca para ver la invitación animada." />
+  <meta property="og:image" content="assets/sophia.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="bg"></div>
+
+  <!-- Mariposas animadas (decoración) -->
+  <div class="butterflies" aria-hidden="true">
+    <span class="bf b1">🦋</span>
+    <span class="bf b2">🦋</span>
+    <span class="bf b3">🦋</span>
+    <span class="bf b4">🦋</span>
+    <span class="bf b5">🦋</span>
+    <span class="bf b6">🦋</span>
+    <span class="bf b7">🦋</span>
+    <span class="bf b8">🦋</span>
+  </div>
+
+  <main class="wrap">
+    <section class="card" id="card" aria-label="Invitación de cumpleaños">
+      <header class="top">
+        <div class="badge">🦋 ¡Te invito a mi cumpleaños!</div>
+        <h1>Sophia Gil</h1>
+        <p class="subtitle">¡Cumple <b>6</b> años! 💜✨</p>
+      </header>
+
+      <div class="content">
+        <div class="photo" aria-label="Foto de Sophia">
+          <img src="assets/sophia.jpg" alt="Sophia" class="photo-img" />
+          <div class="photo-overlay"></div>
+        </div>
+
+        <div class="info">
+          <div class="row">
+            <span class="k">📅 Fecha</span>
+            <span class="v" id="fechaTxt">—</span>
+          </div>
+          <div class="row">
+            <span class="k">🕒 Hora</span>
+            <span class="v" id="horaTxt">—</span>
+          </div>
+          <div class="row">
+            <span class="k">📍 Dirección</span>
+            <span class="v" id="lugarTxt">—</span>
+          </div>
+
+          <div class="countdown">
+            <div class="cd-title">Faltan</div>
+            <div class="cd" id="countdown">—</div>
+            <div class="cd-sub">para celebrar 🦋</div>
+          </div>
+
+          <div class="actions">
+            <a class="btn" id="btnMaps" target="_blank" rel="noreferrer">🗺️ Ver mapa</a>
+            <a class="btn btn2" id="btnWsp" target="_blank" rel="noreferrer">✅ Confirmar por WhatsApp</a>
+          </div>
+
+          <p class="note" id="notaTxt"></p>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <span class="mini">Hecho con 💜 para Sophia</span>
+      </footer>
+    </section>
+  </main>
+
+  <canvas id="fx"></canvas>
+  <script src="app.js"></script>
+</body>
+</html>
