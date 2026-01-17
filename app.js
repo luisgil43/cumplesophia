@@ -3,11 +3,11 @@ const EVENT = {
   nombre: "Sophia Gil",
   edad: 6,
 
-  // ✅ 07-02-2026 15:00 (Chile UTC-03 normalmente en verano)
-  inicioISO: "2026-02-07T15:00:00-03:00",
+  // ✅ 07-02-2026 17:00 (Chile UTC-03 normalmente en verano)
+  inicioISO: "2026-02-07T17:00:00-03:00",
 
   fechaTxt: "Sábado 07 de Febrero 2026",
-  horaTxt: "15:00",
+  horaTxt: "17:00",
   lugarTxt: "Lord Cochrane 347",
   direccionMaps: "Lord Cochrane 347, Santiago, Chile",
 
